@@ -1,0 +1,141 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+/* Adding a container class to selectors */
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+/* Adding a row class to selectors */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Adding a footer class to selectors */
+.footer {
+    background-color: #24262b;
+    padding: 20px;
+}
+
+/* Adding a footerCol class to selectors */
+.footerCol {
+    width: 25%;
+    padding: 0 15px;
+}
+
+/* Adding a footerCol class to h4 selector */
+.footerCol h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+/* Adding a footerCol class to h4::before selector */
+.footerCol h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 2px;
+    box-sizing: border-box;
+    width: 150px;
+    background: linear-gradient(90deg, #ff00dd, #00ffdd, #ddff00);
+    background-size: 300% 100%;
+    animation: gradientAnimation 3s infinite;
+}
+
+/* Keyframes remain unchanged */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Adding a footerCol class to ul selector */
+.footerCol ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Adding a footerCol class to ul li:not(:last-child) selector */
+.footerCol ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+/* Adding a footerCol class to ul li a selector */
+.footerCol ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #bbbbbb;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+/* Adding a footerCol class to ul li a:hover selector */
+.footerCol ul li a:hover {
+    color: #3094b0;
+    padding-left: 8px;
+}
+
+/* Adding a socialLinks class to selectors */
+.socialLinks {
+    display: flex;
+}
+
+/* Adding a socialLink class to selectors */
+.socialLink {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+/* Adding specific social link classes to selectors */
+.socialLink.facebook:hover {
+    background-color: #3b5998;
+}
+
+.socialLink.twitter:hover {
+    background-color: #1da1f2;
+}
+
+.socialLink.instagram:hover {
+    background-color: #e1306c;
+}
+
+.socialLink.linkedin:hover {
+    background-color: #0077b5;
+}
+
+/* Adding media queries with footerCol class */
+@media(max-width: 767px) {
+    .footerCol {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footerCol {
+        width: 100%;
+    }
+}
