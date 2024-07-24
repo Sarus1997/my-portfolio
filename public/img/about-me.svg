@@ -39,7 +39,7 @@
     text-anchor="start"
     letter-spacing="normal"
   >
-    <textPath xlink:href="#path0">Programmer 💻👨‍💻</textPath>
+    <textPath xlink:href="#path0">Programmer</textPath>
   </text>
   <path id="path1">
     <!-- Single line -->
@@ -63,7 +63,7 @@
     letter-spacing="normal"
   >
     <textPath xlink:href="#path1">
-      Web Developer 🌐💻👨‍💻
+      Web Developer
     </textPath>
   </text>
   <path id="path2">
@@ -87,7 +87,7 @@
     text-anchor="start"
     letter-spacing="normal"
   >
-    <textPath xlink:href="#path2">Data Analyst 💾📊🔍</textPath>
+    <textPath xlink:href="#path2">Data Analyst</textPath>
   </text>
   <path id="path3">
     <!-- Single line -->
@@ -110,6 +110,6 @@
     text-anchor="start"
     letter-spacing="normal"
   >
-    <textPath xlink:href="#path3">Video Editor 🎥🎬</textPath>
+    <textPath xlink:href="#path3">Video Editor</textPath>
   </text>
 </svg>
