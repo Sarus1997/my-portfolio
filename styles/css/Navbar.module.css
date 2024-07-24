@@ -1,0 +1,12 @@
+.twitter-hover:hover .text-default-500 {
+    color: #1da1f2; /* Twitter blue */
+  }
+  
+  .discord-hover:hover .text-default-500 {
+    color: #7289da; /* Discord blue */
+  }
+  
+  .github-hover:hover .text-default-500 {
+    color: #333; /* GitHub black */
+  }
+  

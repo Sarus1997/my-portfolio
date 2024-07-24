@@ -53,14 +53,20 @@ function Hero() {
             </div>
             <div className={styles.buttonContainer}>
               <Link
-                className={`${buttonStyles({ variant: "bordered", color: "primary" })} ${styles.button} ${styles.resumeButton}`}
+                className={`${buttonStyles({
+                  variant: "bordered",
+                  color: "primary",
+                })} ${styles.button} ${styles.resumeButton}`}
                 href="/about"
               >
                 <FaFileAlt className={styles.icon} />
                 Resume
               </Link>
               <Link
-                className={`${buttonStyles({ variant: "bordered", color: "secondary" })} ${styles.button} ${styles.githubButton}`}
+                className={`${buttonStyles({
+                  variant: "bordered",
+                  color: "secondary",
+                })} ${styles.button} ${styles.githubButton}`}
                 href="/projects"
               >
                 <FaGithub className={styles.icon} />
